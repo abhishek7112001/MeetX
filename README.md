@@ -49,20 +49,18 @@ To get started with **Marketory**, follow these steps:
    ```
 4. **Access the Website**: Open your browser and navigate to `http://localhost:3000` to access the website.
 
-5. **Set Up Environment Variables**: Create a new file named `.env` in the root of your project and add the following content:
+5. **Set Up Environment Variables**: Create a new file named `.env.local` in the root of your project and add the following content:
 
    ```env
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-   CLERK_SECRET_KEY=
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
+   CLERK_SECRET_KEY=<your-clerk-secret-key>
 
    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
-   NEXT_PUBLIC_STREAM_API_KEY=
-   STREAM_SECRET_KEY=
-   NEXT_PUBLIC_BASE_URL=
+   NEXT_PUBLIC_STREAM_API_KEY=<your-stream-api-key>
+   STREAM_SECRET_KEY=<your-stream-secret-key>
+   NEXT_PUBLIC_BASE_URL=http://localhost:3000
    ```
 
 ## <a name="contribution">Contribution</a>
