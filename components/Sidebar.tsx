@@ -3,6 +3,7 @@
 import { sidebarLinks } from '@/constants'
 import { cn } from '@/lib/utils';
 import { Link } from 'lucide-react';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
@@ -27,11 +28,14 @@ const Sidebar = () => {
                                     'bg-blue-1': isActive,
                                 }
                             )}
-                        >{link.label}</Link>
+                        >
+                            <Image src={link.imgURL} alt={link.label} width={24} height={24} />
+                            <p className='text-lg font-semibold max-lg:hidden'>{link.label}</p>
+                        </Link>
                     )
                 })
             }
-        </div>
+        </div> 
     </section>
   )
 }
