@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MeetX
+Welcome to **MeetX**, a cutting-edge, professional video conferencing application designed to meet the needs of enterprises. Built with the latest technologies, including **Next.js**, **Tailwind CSS**, **TypeScript** and **Stream**, MeetX offers a seamless and reliable video communication experience.
 
-## Getting Started
+<!-- ![Thumbnail](/meetx.png) -->
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **User-friendly Interface**
+- **Clerk Authentication**
+- **Meeting Room**
+- **Previous Meeting Page**
+- **Dynamic Content Rendering**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## <a name="tech-stack">Tech Stack</a>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js
+- TypeScript
+- Stream
+- Shadcn
+- Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## <a name="quick-start">Integration and Installation Process</a>
 
-## Learn More
+Follow these steps to set up the project locally on your device.
 
-To learn more about Next.js, take a look at the following resources:
+**Prerequisites**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Make sure you have the following installed on your machine:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
 
-## Deploy on Vercel
+To get started with **Marketory**, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the Repository**:
+    ```shell
+    git clone https://github.com/prashant-sagar-shakya/MeetX.git
+    ```
+2. **Install Dependencies**:
+    ```shell
+    cd MeetX
+    npm install
+    ```
+3. **Start the Development Server**:
+    ```shell
+    npm run dev
+    ```
+4. **Access the Website**: Open your browser and navigate to `http://localhost:3000` to access the website.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- 5. **Set Up Environment Variables**: Create a new file named `.env` in the root of your project and add the following content:
+
+    ```env
+    NEXT_PUBLIC_SECRET_KEY=sdfdsfsdbvsdjvhbsjfdsbfjsd54354353453dsfsfs
+    NODE_ENV="development"
+    DATABASE_URL=""
+
+    UPLOADTHING_SECRET=
+    UPLOADTHING_APP_ID=
+
+    NEXT_PUBLIC_CHARACTERS="dfbhsdufsbvdefhfbdjhb"
+
+
+    SMTP_EMAIL=
+    SMTP_PASS=
+
+    STRIPE_SECRET_KEY=""
+    NEXT_PUBLIC_FRONTEND_URL=http://localhost:3000
+    ``` -->
+## <a name="contribution">Contribution</a>
+Contributions are welcome, Happy Coding !!!
