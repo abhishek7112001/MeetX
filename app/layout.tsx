@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "MeetX",
   description: "Video calling App",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/icons/MeetXMeetXLogo.png",
   },
 };
 
@@ -23,11 +23,11 @@ export default function RootLayout({
 }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
-      <ClerkProvider
+      <ClerkProvider 
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/MeetXLogo.svg",
+            logoImageUrl: "/icons/MeetXLogo.png",
           },
           variables: {
             colorText: "#fff",
@@ -35,6 +35,9 @@ export default function RootLayout({
             colorBackground: "#1C1F2E",
             colorInputBackground: "#252A41",
             colorInputText: "#fff",
+          },
+          elements: {
+            rootBox: 'custom-logo', 
           },
         }}
       >
